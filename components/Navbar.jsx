@@ -73,7 +73,7 @@ export default function Navbar() {
                         >
                         <span>Solutions</span>
                         <span className=' pl-2 z-[2] relative'>
-                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg" className=' hover:animate-spin'>
+                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg" className={`${open ? 'delay-75 Navbar-Spin-Leave' : 'delay-75 Navbar-Spin-Enter'}`}>
                                 <path d="M1 1L5 5L9 1" stroke="gray" stroke-width="2" stroke-linecap="round"></path>
                             </svg>
                         </span>
